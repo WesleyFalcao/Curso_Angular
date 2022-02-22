@@ -1,0 +1,10 @@
+.botao{ 
+      @apply w-28 h-8 bg-amber-300 absolute shadow-lg rounded-lg;
+}
+
+.proxima-pagina{
+      padding-left: 11px;
+      color: white;
+
+      @apply mt-1;
+}

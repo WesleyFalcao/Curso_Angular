@@ -1,0 +1,13 @@
+<p>Lista de Cursos: </p>
+<p> Pagina: {{ nm_Pagina }}</p>
+<div class="collection">
+      <a [routerLink]=" ['/cursos', curso.id] " class="collection-item"
+            *ngFor="let curso of obj_Array_Cursos">{{curso.nome}}</a>
+</div>
+
+<div class="botao bg-gradient-to-r from-blue-500 to-blue-700 hover:from-pink-500 hover:to-yellow-500 cursor-pointer transform relative active:scale-90 transition duration-300"
+      (click)="ProximaPagina()">
+      <div class="proxima-pagina">
+            Prox. Pagina
+      </div>
+</div>
